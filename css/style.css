@@ -7,6 +7,10 @@
     /* debug */
 }
 
+:root {
+    --margin-element-height:100px;
+}
+
 img {
     max-width: 100%;
 }
@@ -35,6 +39,13 @@ html {
     width: 100%;
 }
 
+.margin-element {
+    background-color: gray;
+    height: 100px;
+    width: 100%;
+    border: 2px solid black;
+
+}
 
 
 
@@ -67,6 +78,7 @@ li {
 
 /* MAIN */
 
+/* chat */
 
 .chat {
     width: 100%;
@@ -76,12 +88,28 @@ li {
 
 }
 
+.main-chat {
+    height: calc(100% - var(--margin-element-height)*2);
+}
+
+
+/* contacts */
+
 .contacts {
     display: none;
     /* debug */
     background-color: purple;
     height: 100%;
-    
 }
 
+.chat-preview {
+    display: none;
+}
+
+
+
 /* FOOTER */
+
+.footer-chat {
+    bottom:0;
+}
