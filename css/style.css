@@ -90,8 +90,31 @@ li {
 
 .main-chat {
     height: calc(100% - var(--margin-element-height)*2);
+    padding: 20px;
+    gap: 10px;
+    overflow-y: auto;
 }
 
+.msg {
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.user-msg {
+    background-color: rgb(213 249 186);
+    align-self: flex-end;
+    font-size: 1.6rem;
+    max-width:70%;
+
+}
+
+.contact-msg {
+    background-color:rgb(255 255 255) ;
+    align-self: flex-start;
+    font-size: 1.6rem;
+    max-width:70%;
+}
 
 /* contacts */
 
