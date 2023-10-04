@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     /* debug */
+    /* border: 2px solid black; */
 }
 
 :root {
@@ -88,6 +89,8 @@ li {
 
 }
 
+
+
 .main-chat {
     height: calc(100% - var(--margin-element-height)*2);
     padding: 20px;
@@ -115,6 +118,20 @@ li {
     font-size: 1.6rem;
     max-width:70%;
 }
+
+.avatar {
+    aspect-ratio: 1/1;
+    height: 10rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar img {
+    width: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 
 /* contacts */
 

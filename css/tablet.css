@@ -8,14 +8,18 @@
     width: 100%;
     /* debug */
     height: 100%;
-    width:88%;
+    
 
+}
+
+.header-chat .avatar {
+    /* width:15%; */
 }
 
 /* contact */
 .contacts {
     display: block;
-    width: 12%;
+    /* width: 14%; */
     height: 100%;
     /* debug */
     background-color: purple;
@@ -34,16 +38,18 @@
     aspect-ratio: 1/1;
     /* debug */
     height: 10rem;
+    width: 10rem;
     justify-content: center;
     align-items: center;
-    width: 100%;
 }
+
 
 .avatar img {
     width: 70px;
     object-fit: cover;
     border-radius: 50%;
 }
+
 
 
 
