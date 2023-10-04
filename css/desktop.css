@@ -23,7 +23,6 @@
 /* chat */
 
 .chat {
-    width: 60%;
     /* debug */
     height: 100%;
 
@@ -38,7 +37,6 @@
     /* debug */
     background-color: purple;
     height: 100%;
-    width: 40%;
 }
 
 .contacts-list {
@@ -52,7 +50,7 @@
 
 
 .chat-preview {
-    width: 70%;
+    width: 350px;
     display: block;
 }
 
