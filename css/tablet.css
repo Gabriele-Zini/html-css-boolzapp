@@ -61,3 +61,13 @@
 
 
 /* FOOTER */
+
+.footer-chat input {
+    width: 70%;
+  
+}
+
+
+.footer-chat i {
+    display: inline;
+}
