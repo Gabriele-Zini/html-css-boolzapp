@@ -29,13 +29,13 @@
 }
 
 
+
 /* .contacts */
 
 
 .contacts {
     display: block;
     /* debug */
-    background-color: purple;
     height: 100%;
 }
 
@@ -50,8 +50,18 @@
 
 
 .chat-preview {
-    width: 350px;
     display: block;
+    border-bottom: .5px solid var(--border-color);
+    font-size: 1.6rem;
+    width: 250px;
+    justify-content: space-between;
+    align-items:flex-start;
+    display: flex;
+    padding: 3rem 1.5rem 0 0;
+    
+}
+.chat-preview p {
+    color: var(--font-color);
 }
 
 .notif-banner {
@@ -65,14 +75,15 @@
     display: block;
     width: 100%;
     padding: 1rem;
-    /* debug */
-    background-color: rgb(177, 166, 166);
+    background-color: var(--header-background);
+   
 }
 
 .search-section input {
     height: 3.8rem;
     display: block;
     width: 100%;
+    border: none;
 }
 
 /* FOOTER */
