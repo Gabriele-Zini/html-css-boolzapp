@@ -129,6 +129,12 @@ li {
     display: none;
 }
 
+.avatar img {
+    width: 70%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 
 
 /* FOOTER */

@@ -49,10 +49,12 @@
 
 .avatar {
     width: 30%;
+    aspect-ratio: 1/1;
     /* debug */
-    border: 2px solid black;
     height: 10rem;
 }
+
+
 
 .chat-preview {
     width: 70%;

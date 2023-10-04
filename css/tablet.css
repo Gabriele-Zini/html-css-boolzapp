@@ -30,6 +30,21 @@
     display: none;
 }
 
+.avatar {
+    aspect-ratio: 1/1;
+    /* debug */
+    height: 10rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.avatar img {
+    width: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 
 
 /* FOOTER */
