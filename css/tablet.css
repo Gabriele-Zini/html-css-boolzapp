@@ -1,0 +1,28 @@
+/* HEADER */
+
+/* MAIN */
+
+
+/* chat */
+.chat {
+    width: 100%;
+    /* debug */
+    background-color: red;
+    height: 100%;
+    width:88%;
+
+}
+
+/* contact */
+.contacts {
+    display: block;
+    overflow-y: scroll;
+    width: 12%;
+    height: 100%;
+    /* debug */
+    background-color: purple;
+}
+
+
+
+/* FOOTER */

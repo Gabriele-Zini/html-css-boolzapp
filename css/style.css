@@ -36,6 +36,24 @@ html {
 }
 
 
+
+
+/* layout */
+
+ul {
+    list-style-type: none;
+    
+}
+
+li {
+    /* debug */
+    height: 100px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+/* utilities */
+
 .flex-container {
     display: flex;
 }
@@ -45,13 +63,25 @@ html {
 }
 
 
-/* layout */
-
-/* utilities */
-
-
 /* HEADER */
 
 /* MAIN */
+
+
+.chat {
+    width: 100%;
+    /* debug */
+    background-color: red;
+    height: 100%;
+
+}
+
+.contacts {
+    display: none;
+    /* debug */
+    background-color: purple;
+    height: 100%;
+    overflow-y: scroll;
+}
 
 /* FOOTER */

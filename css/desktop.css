@@ -11,6 +11,47 @@
 
 .container {
     /* debug */
-    min-height: calc(100vh - 4rem);
+    height: calc(100vh - 4rem);
     width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
 }
+
+/* HEADER */
+
+/* MAIN */
+
+/* chat */
+
+.chat {
+    width: 60%;
+    /* debug */
+    background-color: red;
+    height: 100%;
+
+}
+
+
+/* .contacts */
+
+
+.contacts {
+    display: block;
+    /* debug */
+    background-color: purple;
+    height: 100%;
+    width: 40%;
+}
+
+.avatar {
+    width: 20%;
+    /* debug */
+    border: 2px solid black;
+    height: 10rem;
+}
+
+.chat-preview {
+    width: 70%
+}
+
+/* FOOTER */
