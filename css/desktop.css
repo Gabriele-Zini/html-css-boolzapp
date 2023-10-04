@@ -68,8 +68,16 @@
     display: block;
     height: 100px;
     background-color: hsl(198.55deg 94.83% 77.25%)
-
 }
+
+.notif-banner > div {
+    font-size: 3rem;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    padding:3rem;
+}
+
 
 .search-section {
     display: block;

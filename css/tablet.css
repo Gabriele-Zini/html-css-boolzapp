@@ -53,7 +53,6 @@
 
 .avatar img {
     width: 70px;
-    object-fit: cover;
     border-radius: 50%;
 }
 
