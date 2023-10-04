@@ -1,4 +1,12 @@
 /* HEADER */
+.header-chat i {
+    display: inline;
+}
+
+.margin-element div:nth-of-type(2) {
+    margin-right: 20px;
+}
+
 
 
 
