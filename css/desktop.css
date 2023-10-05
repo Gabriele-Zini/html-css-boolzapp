@@ -15,6 +15,18 @@
     max-width: 1400px;
     margin: 0 auto;
 }
+ button {
+    appearance: none;
+    cursor:pointer;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    color: inherit;
+    font: inherit;
+    text-align: inherit;
+    cursor: pointer;
+}
 
 /* HEADER */
 
@@ -43,8 +55,6 @@
     overflow-y: scroll;
     height: calc(100% - var(--margin-element-height)*2 - 5.8rem);
 }
-
-
 
 
 
@@ -93,5 +103,10 @@
     width: 100%;
     border: none;
 }
+
+ li:hover .avatar, li:hover .chat-preview {
+    background-color: hsl(180deg 4.76% 95.88%)
+}
+
 
 /* FOOTER */
