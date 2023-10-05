@@ -1,3 +1,8 @@
+/* COMMON */
+
+
+
+
 
 /* layout */
 
@@ -19,7 +24,7 @@
 }
 
 .header-contacts .avatar {
-    border-right: .5px solid var(--border-color);
+    border-right: .5px solid var(--border-color2);
 }
 
 
@@ -86,6 +91,6 @@ li:hover .avatar{
 }
 
 
-.footer-chat i {
+.footer-chat button {
     display: inline;
 }

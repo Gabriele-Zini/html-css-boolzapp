@@ -12,10 +12,12 @@
     --margin-element-height:100px;
     --header-background:rgb(234 234 234);
     --border-color: rgb(220 220 220);
+    --border-color2:rgb(178, 177, 177);
     --font-color: rgb(150 150 150);
     --contact-background:hsl(0deg 0% 100%);
     --hover-color:hsl(180deg 4.76% 95.88%);
     --icons-color:rgb(193, 180, 180);
+    --icons-color2:rgb(133, 133, 133);
 }
 
 img {
@@ -274,7 +276,8 @@ button {
     height: 3rem;
 }
 
-.footer-chat i {
+.footer-chat button{
     display: none;
+    color: var(--icons-color2);
 }
 
