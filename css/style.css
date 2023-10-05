@@ -76,7 +76,6 @@ ul {
 }
 
 li {
-    /* debug */
     height: 100px;
     width: 100%;
 }
@@ -108,10 +107,6 @@ button {
     cursor: pointer;
 }
 
-.jst-cont-center {
-    justify-content: center;
-}
-
 
 
 
@@ -129,9 +124,6 @@ button {
     margin-right: 1.5rem;
     color: var(--icons-color);
 }
-
-
-
 
 
 
@@ -254,7 +246,6 @@ button {
 
 .contacts {
     display: none;
-    /* debug */
     height: 100%;
     background-color: var(--contact-background);
 }
