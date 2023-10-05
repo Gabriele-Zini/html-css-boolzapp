@@ -1,0 +1,63 @@
+:root {
+    --body-color1:rgb(7 94 84);
+    --body-color2:rgb(54, 75, 87);
+    --margin-element-height:100px;
+    --header-background:rgb(8, 32, 50);
+    --background-color-notif: rgb(3, 80, 111);
+    --border-color: black;
+    --border-color2:black;
+    --font-color: white;
+    --font-color2:white;
+    --font-color3:white;
+    --contact-background:rgb(44, 57, 75);
+    --hover-color:rgb(7 94 84);
+    --icons-color:rgb(147, 177, 166);
+    --icons-color2:;
+}
+
+
+/* MAIN */
+
+.main-chat {
+    background-image: url(../img/darkmodezap.jpg);
+    background-repeat: none;
+}
+
+
+
+
+.user-msg {
+    background-color: rgb(7 94 84);
+
+}
+
+.contact-msg {
+    background-color: rgb(39, 73, 109);
+}
+
+.search-section input {
+    background-color:rgb(12, 78, 78); 
+    color: white;
+}
+
+.msg-options {
+    color:white;
+    background-color: rgb(51, 52, 86);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+
+ 
+}
+
+
+
+/* FOOTER */
+
+.footer-chat {
+    background-color: rgb(8, 32, 50);
+    
+}
+
+.footer-chat input {
+    background-color: rgb(12, 78, 78); 
+    color: white;
+}

@@ -80,7 +80,8 @@
 .notif-banner {
     display: block;
     height: 100px;
-    background-color: hsl(198.55deg 94.83% 77.25%)
+    /* background-color: hsl(198.55deg 94.83% 77.25%) */
+    background-color: var(--background-color-notif);
 }
 
 
@@ -99,7 +100,7 @@
 }
 
 .notif-banner a {
-    color:rgb(94, 94, 94);
+    color:var(--font-color3)
 }
 
 
@@ -123,6 +124,8 @@
 li:hover .chat-preview {
     background-color: var(--hover-color);
 }
+
+
 
 
 /* FOOTER */

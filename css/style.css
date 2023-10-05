@@ -13,9 +13,12 @@
     --body-color2:hsl(80deg 7.69% 84.71%);
     --margin-element-height:100px;
     --header-background:rgb(234 234 234);
+    --background-color-notif:hsl(198.55deg 94.83% 77.25%);
     --border-color: rgb(220 220 220);
     --border-color2:rgb(178, 177, 177);
     --font-color: rgb(150 150 150);
+    --font-color2:black;
+    --font-color3:rgb(94, 94, 94);
     --contact-background:hsl(0deg 0% 100%);
     --hover-color:hsl(180deg 4.76% 95.88%);
     --icons-color:rgb(193, 180, 180);
@@ -82,6 +85,11 @@ li {
 
 h3 {
     margin-bottom: .5rem;
+    color: var(--font-color2);
+}
+
+.msg-content p {
+    color: var(--font-color2);
 }
 
 /* utilities */
@@ -147,7 +155,7 @@ button {
     aspect-ratio: 1/1;
     border-radius: 50%;
     padding: 1.5rem 1.5rem;
-    color:hsl(198.55deg 94.83% 77.25%);
+    color:var(--background-color-notif)
 }
 
 /* MAIN */
@@ -237,8 +245,9 @@ button {
     justify-content: center;
     align-items: center;
     background-color: var(--contact-background);
-    border-bottom:.5px solid var(--border-color);
 }
+
+
 
 .avatar img {
     width: 70px;
@@ -259,6 +268,13 @@ button {
     display: none;
 }
 
+.header-contacts .avatar {
+    border-bottom:.5px solid var(--border-color);
+}
+
+.contacts-list .avatar {
+    border-bottom:.5px solid var(--border-color);
+}
 
 
 
