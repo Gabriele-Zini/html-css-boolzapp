@@ -9,11 +9,18 @@
 .header-chat i {
     display: inline;
 }
-
-.margin-element div:nth-of-type(2) {
-    margin-right: 20px;
+.header-chat button:nth-of-type(3) {
+    margin-right: 2rem;
 }
 
+
+.contacts i {
+    display: none;
+}
+
+.header-contacts .avatar {
+    border-right: .5px solid var(--border-color);
+}
 
 
 
@@ -22,7 +29,6 @@
 
 /* chat */
 .chat {
-    width: 100%;
     /* debug */
     height: 100%;
     
@@ -33,15 +39,14 @@
 
 /* contact */
 .contacts {
-    display: block;
-    /* width: 14%; */
+    display: flex;
     height: 100%;
-    /* debug */
 }
 
 .contacts-list {
     overflow-y: scroll;
     height: calc(100% - var(--margin-element-height));
+    width: max-content;
 }
 
 .search-section {
@@ -53,10 +58,14 @@
     /* debug */
     height: 10rem;
     width: 10rem;
-    justify-content: center;
     align-items: center;
 }
 
+
+
+ul {
+    width: max-content;
+}
 
 .avatar img {
     width: 70px;

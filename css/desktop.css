@@ -17,6 +17,14 @@
 }
 
 /* HEADER */
+.contacts i {
+    display: inline;
+}
+
+.header-contacts .avatar {
+    border-right: none
+}
+
 
 /* MAIN */
 
@@ -42,11 +50,12 @@
     height: calc(100% - var(--margin-element-height)*2 - 5rem);
 }
 
-
+li {
+    width:max-content
+}
 
 
 .chat-preview {
-    display: block;
     border-bottom: .5px solid var(--border-color);
     font-size: 1.6rem;
     width: 250px;
