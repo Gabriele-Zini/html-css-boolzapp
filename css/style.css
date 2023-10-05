@@ -9,6 +9,8 @@
 }
 
 :root {
+    --body-color1:hsl(174.4deg 100% 29.41%);
+    --body-color2:hsl(80deg 7.69% 84.71%);
     --margin-element-height:100px;
     --header-background:rgb(234 234 234);
     --border-color: rgb(220 220 220);
@@ -30,6 +32,13 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    background: linear-gradient(to bottom, 
+        var(--body-color1) 20%, 
+        var(--body-color2) 20%, 
+        var(--body-color2) 80%);
+}
+
 
 .wrapper {
     width: 100%;
@@ -43,6 +52,7 @@ html {
     /* debug */
     width: 100%;
     border: 1px solid var(--border-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
 .margin-element {
