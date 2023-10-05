@@ -111,14 +111,14 @@
    
 }
 
+
 .search-section input {
     height: 3rem;
     display: block;
     width: 100%;
     border: none;
+    
 }
-
-
 
 li:hover .chat-preview {
     background-color: var(--hover-color);
