@@ -14,7 +14,8 @@
     --border-color: rgb(220 220 220);
     --font-color: rgb(150 150 150);
     --contact-background:hsl(0deg 0% 100%);
-    --hover-color:hsl(180deg 4.76% 95.88%)
+    --hover-color:hsl(180deg 4.76% 95.88%);
+    --icons-color:rgb(193, 180, 180);
 }
 
 img {
@@ -110,11 +111,11 @@ button {
     align-items: center;
 }
 
-.header-chat i {
+.margin-element i {
     display: none;
     font-size: 2.5rem;
     margin-right: 1.5rem;
-    color: var(--font-color);
+    color: var(--icons-color);
 }
 
 
@@ -261,7 +262,7 @@ button {
     justify-content: center;
     align-items: center;
     font-size: 2.5rem;
-    color: var(--font-color);
+    color: var(--icons-color);
     height: 60px;
     background-color: rgb(243 238 234);
 }

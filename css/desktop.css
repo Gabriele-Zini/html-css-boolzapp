@@ -25,7 +25,13 @@
     border-right: none
 }
 
+.header-contacts {
+    justify-content: space-between;
+}
 
+.header-contacts button {
+    align-self: center;
+}
 /* MAIN */
 
 /* chat */
