@@ -117,7 +117,6 @@ button {
 
 
 
-
 /* HEADER */
 
 
@@ -132,7 +131,6 @@ button {
     margin-right: 1.5rem;
     color: var(--icons-color);
 }
-
 
 
 .contact-name {
@@ -155,7 +153,7 @@ button {
     aspect-ratio: 1/1;
     border-radius: 50%;
     padding: 1.5rem 1.5rem;
-    color:var(--background-color-notif)
+    color: var(--background-color-notif)
 }
 
 /* MAIN */
@@ -167,6 +165,7 @@ button {
     height: 100%;
 }
 
+/* main-chat body */
 .main-chat {
     height: calc(100% - var(--margin-element-height) - 60px);
     padding: 20px;
@@ -175,12 +174,14 @@ button {
     background-image: url(../img/mine.jpg);
 }
 
+/* message general class */
 .msg {
     padding: 10px;
     border-radius: 10px;
     position: relative;
 }
 
+/* message send by user */
 .user-msg {
     background-color: rgb(213 249 186);
     align-self: flex-end;
@@ -193,7 +194,7 @@ button {
     cursor: pointer;
 }
 
- 
+/* hidden div with message options */
 .msg-options {
     min-width: 150px;
     min-height: 50px;
@@ -234,6 +235,7 @@ button {
 }
 
 
+/* profile pic div */
 .avatar {
     aspect-ratio: 1/1;
     height: 10rem;
@@ -242,7 +244,6 @@ button {
     align-items: center;
     background-color: var(--contact-background);
 }
-
 
 
 .avatar img {
@@ -271,8 +272,6 @@ button {
 .contacts-list .avatar {
     border-bottom: .5px solid var(--border-color);
 }
-
-
 
 
 /* FOOTER */

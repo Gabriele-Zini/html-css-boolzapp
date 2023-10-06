@@ -1,3 +1,8 @@
+/* -------------- DARK MODE CSS -------------- */
+
+
+/* RESET DARKMODE */
+
 :root {
     --body-color1:rgb(7 94 84);
     --body-color2:rgb(54, 75, 87);
@@ -12,28 +17,30 @@
     --contact-background: rgb(44, 57, 75);
     --hover-color: rgb(7 94 84);
     --icons-color: rgb(147, 177, 166);
-    --icons-color2: rgb(147, 177, 166);;
+    --icons-color2: rgb(147, 177, 166);
 }
 
+/* COMMON */
+
+
+/* layout */
 
 .container {
    
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.9);
 }
 
+
 /* MAIN */
+
 
 .main-chat {
     background-image: url(../img/darkmodezap.jpg);
     background-repeat: none;
 }
 
-
-
-
 .user-msg {
     background-color: rgb(7 94 84);
-
 }
 
 .contact-msg {
@@ -46,12 +53,12 @@ input {
 }
 
 ::placeholder {
-    color: white;
+    color: rgb(193, 193, 193);
 }
 
 .fake-input {
     background-color: rgb(12, 78, 78); 
-    color: white;
+    color: rgb(193, 193, 193);;
 }
 
 .msg-options {
@@ -61,11 +68,9 @@ input {
 }
 
 
-
 /* FOOTER */
 
 .footer-chat {
     background-color: rgb(8, 32, 50);
-    
 }
 
