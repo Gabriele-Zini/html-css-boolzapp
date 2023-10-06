@@ -13,16 +13,16 @@
     --body-color2:hsl(80deg 7.69% 84.71%);
     --margin-element-height:100px;
     --header-background:rgb(234 234 234);
-    --background-color-notif:hsl(198.55deg 94.83% 77.25%);
+    --background-color-notif: hsl(198.55deg 94.83% 77.25%);
     --border-color: rgb(220 220 220);
-    --border-color2:rgb(178, 177, 177);
+    --border-color2: rgb(178, 177, 177);
     --font-color: rgb(150 150 150);
-    --font-color2:black;
-    --font-color3:rgb(94, 94, 94);
-    --contact-background:hsl(0deg 0% 100%);
-    --hover-color:hsl(180deg 4.76% 95.88%);
-    --icons-color:rgb(193, 180, 180);
-    --icons-color2:rgb(133, 133, 133);
+    --font-color2: black;
+    --font-color3: rgb(94, 94, 94);
+    --contact-background: hsl(0deg 0% 100%);
+    --hover-color: hsl(180deg 4.76% 95.88%);
+    --icons-color: rgb(193, 180, 180);
+    --icons-color2: rgb(133, 133, 133);
 }
 
 img {
@@ -43,13 +43,11 @@ body {
         var(--body-color2) 80%);
 }
 
-
 .wrapper {
     width: 100%;
     height: 100vh;
     /* debug */
-    width:100%;
-   
+    width: 100%;
 }
 
 .container {
@@ -66,7 +64,6 @@ body {
 
 .margin-element .avatar {
     background-color: var(--header-background);
-
 }
 
 
@@ -75,7 +72,6 @@ body {
 
 ul {
     list-style-type: none;
-    
 }
 
 li {
@@ -92,6 +88,7 @@ h3 {
     color: var(--font-color2);
 }
 
+
 /* utilities */
 
 .flex-container {
@@ -104,7 +101,7 @@ h3 {
 
 button {
     appearance: none;
-    cursor:pointer;
+    cursor: pointer;
     margin: 0;
     padding: 0;
     border: none;
