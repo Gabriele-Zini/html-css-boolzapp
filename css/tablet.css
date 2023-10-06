@@ -63,7 +63,6 @@ li:hover .avatar{
     height: 5rem;
     width: 5rem;
     text-align: center;
-    margin-right: -1.5rem;
     border-radius: 50%; 
 }
 
@@ -113,7 +112,6 @@ li:hover .avatar{
     outline: none; 
     text-align: center;
     padding-top: 1.2rem;
-    margin-left: -1.5rem; 
   }
 
   .btn-container {
