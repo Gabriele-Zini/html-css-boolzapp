@@ -66,6 +66,10 @@ body {
     background-color: var(--header-background);
 }
 
+input {
+    outline: none;
+    border: none;
+}
 
 
 /* layout */
@@ -289,7 +293,6 @@ button {
 .footer-chat input {
     margin: 0 2rem 0;
     width: 90%;
-    border: none;
     height: 3rem;
 }
 
