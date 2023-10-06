@@ -163,7 +163,6 @@ button {
     width: 100%;
     /* debug */
     height: 100%;
-
 }
 
 .main-chat {
@@ -186,7 +185,6 @@ button {
     align-self: flex-end;
     font-size: 1.6rem;
     max-width:70%;
-
 }
 
 .fa-angle-down {
@@ -196,13 +194,13 @@ button {
 
  
 .msg-options {
-    min-width:150px;
-    min-height:50px;
+    min-width: 150px;
+    min-height: 50px;
     position: absolute;
     z-index: 999;
     background-color: white;
-    right:10px;
-    top:30px;
+    right: 10px;
+    top: 30px;
     gap: 2rem;
     padding: 2rem;
     justify-content: space-between;
@@ -231,7 +229,7 @@ button {
     background-color:rgb(255 255 255) ;
     align-self: flex-start;
     font-size: 1.6rem;
-    max-width:70%;
+    max-width: 70%;
 }
 
 
@@ -266,11 +264,11 @@ button {
 }
 
 .header-contacts .avatar {
-    border-bottom:.5px solid var(--border-color);
+    border-bottom: .5px solid var(--border-color);
 }
 
 .contacts-list .avatar {
-    border-bottom:.5px solid var(--border-color);
+    border-bottom: .5px solid var(--border-color);
 }
 
 
@@ -279,7 +277,7 @@ button {
 /* FOOTER */
 
 .footer-chat {
-    bottom:0;
+    bottom: 0;
     justify-content: center;
     align-items: center;
     font-size: 2.5rem;

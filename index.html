@@ -21,11 +21,11 @@
     />
 
     <!-- darkmode -->
-    <link
+    <!-- <link
       rel="stylesheet"
       href="./css/dark.css"
       media="(prefers-color-scheme: dark)"
-    />
+    /> -->
 
     <!-- icon link -->
     <link
@@ -71,11 +71,13 @@
           <!-- search section -->
           <div class="search-section">
             <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
-            <input
-              type="search"
-              style="font-family: Arial, Font Awesome\5 Free; font-weight: 900"
-              placeholder="   &#xf002;    Cerca o inizia una nuova chat"
-            />
+            <div class="fake-input flex-container">
+              <label for=""><i class="fa-solid fa-magnifying-glass"></i></label>
+              <input
+                type="search"
+                placeholder="Cerca o inizia una nuova chat"
+              />
+            </div>
           </div>
 
           <!-- contact-list -->
@@ -437,9 +439,7 @@
           <div class="footer-chat flex-container">
             <button><i class="fa-regular fa-face-smile"></i></button>
             <input type="text" placeholder="   Scrivi un messaggio" />
-            <div class="btn-container">
-              <button><i class="fa-solid fa-microphone"></i></button>
-            </div>
+            <button><i class="fa-solid fa-microphone"></i></button>
           </div>
         </div>
       </div>
